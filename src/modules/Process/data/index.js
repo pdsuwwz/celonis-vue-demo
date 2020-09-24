@@ -24,5 +24,6 @@ export const dataset = {
     { source: 6, target: 7, label: "流转" },
     { source: 7, target: 8, label: "流转" },
     { source: 7, target: 4, label: "流转" },
+    { source: 6, target: 6, label: "流转" },
   ],
 }

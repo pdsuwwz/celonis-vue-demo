@@ -39,7 +39,8 @@ export default {
   data() {
     return {
       svg: {
-        range: [0, 1, 2, 3, 5, 6, 7, 4, 5, 6, 7, 8],
+        // range: [0, 1, 2, 3, 4, 5, 6, 7, 4, 5, 6, 7, 8],
+        range: [0, 1, 2, 3, 4, 5, 6, 6, 6, 6, 6, 6, 6, 7, 8],
         chart: {},
         innerContainer: {},
         graph: {},
@@ -233,7 +234,7 @@ export default {
         `
       })
 
-      this.svg.innerContainer
+      const len = this.svg.innerContainer
         .select('#v-output')
         .append('g')
         .attr('id', 'v-group')
@@ -241,6 +242,8 @@ export default {
         .attr('id', 'moving-line')
         .attr('fill', 'none')
         .attr('d', combineLine)
+        .node().getTotalLength()
+      console.log(len)
     },
 
     // 创建轨迹动画
