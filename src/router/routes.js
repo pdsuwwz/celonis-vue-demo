@@ -41,7 +41,8 @@ const routes = [
   {
     path: '/',
     title: 'Dashboard',
-    icon: 'tachometer-alt'
+    icon: 'tachometer-alt',
+    redirect: '/process/dagre-d3/celonis-dagre-d3-live-demo'
   },
   {
     path: '/process',
