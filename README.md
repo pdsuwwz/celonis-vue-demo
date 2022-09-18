@@ -5,6 +5,35 @@
 
 __[💻 Live Demo 在线体验](https://pdsuwwz.github.io/celonis-vue-demo/#/process/dagre-d3/celonis-dagre-d3-live-demo)__
 
+# 核心目录结构
+
+src/modules/Process/* 模块中的 pages/ 下的 vue 文件即为路由
+
+<pre>
+<code>
+├── api
+│   └── index.js
+├── components
+│   └── index.vue
+├── data
+│   └── index.js
+<strong>├── pages</strong>
+<strong>│   ├── celonis-ball-demo.vue</strong>
+<strong>│   ├── celonis-connect-demo.vue</strong>
+<strong>│   ├── celonis-demo.vue</strong>
+<strong>│   ├── celonis-flow-demo.vue</strong>
+<strong>│   ├── celonis-move-demo.vue</strong>
+<strong>│   ├── celonis-orient-demo.vue</strong>
+<strong>│   └── dagre-d3</strong>
+<strong>│       ├── README.md</strong>
+<strong>│       ├── celonis-dagre-d3-demo.vue</strong>
+<strong>│       ├── celonis-dagre-d3-flow-demo.vue</strong>
+<strong>│       ├── celonis-dagre-d3-live-demo\ copy.vue</strong>
+<strong>│       └── celonis-dagre-d3-live-demo.vue</strong>
+└── store
+    └── index.js
+</code></pre>
+
 
 # 本地 Demo 预览
 
