@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["84.page"],{eb81:function(e,n,t){"use strict";t.r(n);var s=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v("Celonis 编辑")])},a=[],l={name:"workspacesEdit"},c=l,i=t("2877"),o=Object(i["a"])(c,s,a,!1,null,null,null);n["default"]=o.exports}}]);
