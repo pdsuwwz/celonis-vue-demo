@@ -3,6 +3,9 @@
 <p>流程挖掘是一种分析业务流程的方法。</p>
 <p>如当前业务的趋势、模式、走向等经历的详细过程，从这些过程中获得的见解可用于提高业务组织的效率和效力。</p>
 
+__[💻 Live Demo 在线体验](https://pdsuwwz.github.io/celonis-vue-demo/#/process/dagre-d3/celonis-dagre-d3-live-demo)__
+
+
 # 本地 Demo 预览
 
 * 请提前准备 yarn 和 node v12版本
