@@ -25,7 +25,7 @@
       </el-row>
     </div>
     <h3 class="range-list">顺序: {{ svg.range.join('->') }}</h3>
-    <svg id="celonis-demo" />
+    <svg id="celonis-demo"></svg>
   </div>
 </template>
 

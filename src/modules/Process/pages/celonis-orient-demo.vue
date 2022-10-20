@@ -1,6 +1,6 @@
 <template>
   <div class="celonis-container">
-    <svg id="celonis-demo" />
+    <svg id="celonis-demo"></svg>
   </div>
 </template>
 

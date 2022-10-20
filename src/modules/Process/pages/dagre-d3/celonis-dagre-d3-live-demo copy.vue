@@ -19,7 +19,7 @@
       </el-row>
     </div>
 
-    <svg id="celonis-demo" />
+    <svg id="celonis-demo"></svg>
   </div>
 </template>
 
